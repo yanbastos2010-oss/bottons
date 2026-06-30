@@ -101,8 +101,8 @@ function CarouselSection() {
         </p>
         <span className="block w-24 h-1 bg-[#2563eb] mx-auto rounded-full"></span>
       </div>
-      <div className="relative w-full flex overflow-hidden">
-        <div className="flex animate-scroll-mobile md:animate-scroll w-[200%]">
+      <div className="relative w-full overflow-hidden">
+        <div className="flex w-max animate-scroll-mobile md:animate-scroll">
           {[...images, ...images].map((src, i) => (
             <div key={i} className="flex-none w-64 md:w-80 mx-1">
               <img src={src} alt="Artes Prontas" className="w-full h-auto" loading="lazy" decoding="async" />
