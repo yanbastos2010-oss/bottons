@@ -7,8 +7,8 @@ html {
 
 @theme {
   --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --animate-scroll: scroll 30s linear infinite;
-  --animate-scroll-mobile: scroll 25s linear infinite;
+  --animate-scroll: scroll 60s linear infinite;
+  --animate-scroll-mobile: scroll 45s linear infinite;
   --animate-bounce-down: bounceDown 1.5s infinite;
   --animate-shine: shine 2s infinite;
 

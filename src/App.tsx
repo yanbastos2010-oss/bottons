@@ -190,12 +190,13 @@ function WhySection() {
 }
 
 const ideals = [
-  'Precisa de dinheiro rápido para pagar as contas',
-  'Quer começar um negócio em casa',
-  'Não sabe criar artes',
-  'Quer vender produtos personalizados',
-  'Precisa de algo simples e prático',
-  'Busca uma renda extra com baixo investimento'
+  'Quer economizar horas criando artes do zero',
+  'Já faz bottons e quer aumentar sua produção',
+  'Precisa de artes prontas para vender mais rápido',
+  'Quer oferecer mais opções aos clientes sem ter trabalho',
+  'Está começando e não sabe quais artes fazem sucesso',
+  'Busca um acervo completo para vender bottons e ímãs personalizados',
+  'Deseja produzir mais e perder menos tempo'
 ];
 
 function IdealSection() {
