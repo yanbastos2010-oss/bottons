@@ -96,13 +96,13 @@ function CarouselSection() {
   return (
     <section className="bg-gray-50 py-16 overflow-hidden">
       <div className="text-center mb-10 px-4">
-        <p className="text-2xl md:text-3xl font-black text-gray-900 mb-4">
+        <p className="text-[8.5vw] sm:text-5xl md:text-6xl font-black text-gray-900 mb-4 uppercase whitespace-nowrap tracking-tighter">
           VEJA ALGUMAS ARTES
         </p>
         <span className="block w-24 h-1 bg-[#2563eb] mx-auto rounded-full"></span>
       </div>
       <div className="relative w-full flex overflow-hidden">
-        <div className="flex animate-scroll-mobile md:animate-scroll hover:[animation-play-state:paused] w-[200%]">
+        <div className="flex animate-scroll-mobile md:animate-scroll w-[200%]">
           {[...images, ...images].map((src, i) => (
             <div key={i} className="flex-none w-64 md:w-80 mx-1">
               <img src={src} alt="Artes Prontas" className="w-full h-auto" loading="lazy" decoding="async" />
