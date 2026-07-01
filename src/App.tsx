@@ -377,35 +377,35 @@ function OffersSection() {
       </div>
 
       {showUpsell && (
-        <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-2 md:p-4">
-          <div id="upsell-modal" className="bg-white rounded-2xl w-full max-w-md p-4 md:p-6 relative animate-[popupIn_0.3s_ease_forwards] max-h-[95vh] overflow-y-auto">
-            <button id="upsell-close" onClick={() => setShowUpsell(false)} aria-label="Fechar" className="absolute top-2 right-3 md:top-4 md:right-4 text-gray-500 hover:text-gray-800 text-xl font-bold">✕</button>
-            <p className="text-center font-black text-xl md:text-2xl text-black mb-1 md:mb-2 uppercase mt-2 md:mt-0">Espere! Oferta Especial 🔥</p>
-            <p className="text-center font-bold text-gray-800 text-xs md:text-sm mb-2 md:mb-4" id="upsell-subtitle">Leve o PLANO COMPLETO com desconto exclusivo!</p>
-            <p className="text-center text-gray-400 line-through text-xs md:text-sm mb-0 md:mb-1" id="upsell-old-price">De R$27,00</p>
+        <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4">
+          <div id="upsell-modal" className="bg-white rounded-2xl w-full max-w-md p-5 md:p-6 relative animate-[popupIn_0.3s_ease_forwards] max-h-[95vh] overflow-y-auto">
+            <button id="upsell-close" onClick={() => setShowUpsell(false)} aria-label="Fechar" className="absolute top-3 right-3 md:top-4 md:right-4 text-gray-400 hover:text-gray-800 text-xl font-bold">✕</button>
+            <p className="text-center font-black text-2xl text-black mb-1 md:mb-2 uppercase">Espere! Oferta Especial 🔥</p>
+            <p className="text-center font-bold text-gray-800 text-sm mb-2 md:mb-4" id="upsell-subtitle">Leve o PLANO COMPLETO com desconto exclusivo!</p>
+            <p className="text-center text-gray-400 line-through text-sm mb-0 md:mb-1" id="upsell-old-price">De R$27,00</p>
             <p className="text-center text-4xl md:text-5xl font-black text-green-600 mb-3 md:mb-6 leading-none">R$17</p>
-            <ul id="upsell-list" className="space-y-1.5 md:space-y-3 mb-4 md:mb-6 text-left w-fit mx-auto">
-              <li className="flex items-start gap-2 text-[11px] md:text-sm text-gray-800 border-b border-gray-100 pb-1.5 md:pb-2">
+            <ul id="upsell-list" className="space-y-2 md:space-y-3 mb-4 md:mb-6 text-left w-fit mx-auto">
+              <li className="flex items-start gap-2 text-xs md:text-sm text-gray-800 border-b border-gray-100 pb-1 md:pb-2">
                 <span>✅</span><span>+500 Artes Prontas para Bottons e Imãs</span>
               </li>
-              <li className="flex items-start gap-2 text-[11px] md:text-sm text-gray-800 border-b border-gray-100 pb-1.5 md:pb-2">
+              <li className="flex items-start gap-2 text-xs md:text-sm text-gray-800 border-b border-gray-100 pb-1 md:pb-2">
                 <span>✅</span><span>Guia de Impressão e Produção</span>
               </li>
-              <li className="flex items-start gap-2 text-[11px] md:text-sm text-gray-800 border-b border-gray-100 pb-1.5 md:pb-2">
+              <li className="flex items-start gap-2 text-xs md:text-sm text-gray-800 border-b border-gray-100 pb-1 md:pb-2">
                 <span>✅</span><span>Atualizações Mensais</span>
               </li>
-              <li className="flex items-start gap-2 text-[11px] md:text-sm text-gray-800 border-b border-gray-100 pb-1.5 md:pb-2">
-                <span>✅</span><span><strong style={{color: '#2563eb'}}>BÔNUS:</strong> Kit Gabaritos para Máquinas de Ímãs e Bottons</span>
+              <li className="flex items-start gap-2 text-xs md:text-sm text-gray-800 border-b border-gray-100 pb-1 md:pb-2">
+                <span>✅</span><span><strong style={{color: '#2563eb'}}>BÔNUS:</strong> Kit Gabaritos para Máquinas</span>
               </li>
-              <li className="flex items-start gap-2 text-[11px] md:text-sm text-gray-800 border-b border-gray-100 pb-1.5 md:pb-2">
+              <li className="flex items-start gap-2 text-xs md:text-sm text-gray-800 border-b border-gray-100 pb-1 md:pb-2">
                 <span>✅</span><span><strong style={{color: '#2563eb'}}>BÔNUS:</strong> Planilha de Custos e Precificação</span>
               </li>
-              <li className="flex items-start gap-2 text-[11px] md:text-sm text-gray-800 border-b border-gray-100 pb-1.5 md:pb-2">
-                <span>✅</span><span><strong style={{color: '#2563eb'}}>BÔNUS:</strong> Scripts para fechar vendas no WhatsApp</span>
+              <li className="flex items-start gap-2 text-xs md:text-sm text-gray-800 border-b border-gray-100 pb-1 md:pb-2">
+                <span>✅</span><span><strong style={{color: '#2563eb'}}>BÔNUS:</strong> Scripts de vendas no WhatsApp</span>
               </li>
             </ul>
-            <a href="https://ggcheckout.app/checkout/v5/NbBS5H7FyEpG2X7D9t2v" className="block w-full bg-green-600 hover:bg-green-700 text-white font-black text-[15px] md:text-lg text-center py-2.5 md:py-4 rounded-lg mb-2 md:mb-3 shadow-[0_4px_15px_rgba(22,163,74,0.4)] transition-colors">QUERO O COMPLETO POR R$17</a>
-            <a href="https://ggcheckout.app/checkout/v5/hP4KHlfuZ0PReMGM5Ets" className="block w-full text-center text-gray-500 hover:text-gray-800 text-xs md:text-sm font-bold underline py-1 md:py-2">Continuar com o Básico</a>
+            <a href="https://ggcheckout.app/checkout/v5/NbBS5H7FyEpG2X7D9t2v" className="block w-full bg-green-600 hover:bg-green-700 text-white font-black text-base md:text-lg text-center py-3 md:py-4 rounded-lg mb-2 shadow-[0_4px_15px_rgba(22,163,74,0.4)] transition-colors">QUERO O COMPLETO POR R$17</a>
+            <a href="https://ggcheckout.app/checkout/v5/hP4KHlfuZ0PReMGM5Ets" className="block w-full text-center text-gray-500 hover:text-gray-800 text-xs md:text-sm font-bold underline py-2">Continuar com o Básico</a>
           </div>
         </div>
       )}
