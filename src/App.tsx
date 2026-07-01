@@ -29,7 +29,7 @@ function FooterSection() {
     <footer className="bg-[#111827] text-gray-400 py-10 px-4 text-center text-sm">
       <div className="max-w-4xl mx-auto flex flex-col items-center gap-4">
         <p>Copyright &copy; 2026 | Todos os direitos reservados.</p>
-        <p>Todos os direitos sobre a obra "+500 Artes Prontas para Bottons e Imãs" são reservados ao produto, nos termos da Lei nº 9.610/98 (Lei de Direitos Autorais).</p>
+        <p>Todos os direitos sobre a obra "+1.000 Artes Prontas para Bottons e Imãs" são reservados ao produto, nos termos da Lei nº 9.610/98 (Lei de Direitos Autorais).</p>
       </div>
     </footer>
   );
@@ -51,12 +51,12 @@ function HeroSection() {
         Editáveis no Canva
       </div>
       <h1 className="text-3xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight">
-        <span className="text-[#2563eb]">+500</span>
+        <span className="text-[#2563eb]">+1.000</span>
         <span className="text-[#1A1A1A]"> Artes Prontas para </span>
         <span className="text-[#2563eb]">Bottons e Imãs</span>
       </h1>
       <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl">
-        Tenha acesso imediato a mais de 500 artes profissionais prontas para imprimir, produzir e começar a vender hoje mesmo.
+        Tenha acesso imediato a mais de 1.000 artes profissionais prontas para imprimir, produzir e começar a vender hoje mesmo.
       </p>
       <div className="w-full max-w-3xl mb-8">
           <img
@@ -133,7 +133,7 @@ function ReceiveSection() {
       <div className="receive-grid">
         <div className="receive-card">
           <span className="item-badge">ITEM 01</span>
-          <h3>+500 Artes Prontas para Bottons e Imãs</h3>
+          <h3>+1.000 Artes Prontas para Bottons e Imãs</h3>
           <p>Artes organizadas e prontas para impressão nos modelos que mais vendem atualmente.</p>
           <ul className="receive-list">
             {itemsList.map((item, i) => (
@@ -261,7 +261,7 @@ function BonusSection() {
 }
 
 const benefitsList = [
-  { label: '+500 Artes Prontas para Bottons e Imãs' },
+  { label: '+1.000 Artes Prontas para Bottons e Imãs' },
   { label: 'Guia de Impressão e Produção' },
   { label: 'Acesso Digital e Vítalicio' },
   { label: 'Garantia de 30 dias' },
@@ -329,7 +329,7 @@ function OffersSection() {
             <p style={{ color: '#dc2626', textDecoration: 'line-through', fontSize: '14px', margin: '0 0 2px', textAlign: 'center' }}>De R$47,00</p>
             <p style={{ fontSize: '48px', fontWeight: 900, color: '#16a34a', lineHeight: 1.1, margin: '0 0 20px', textAlign: 'center' }}>R$10</p>
             <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 20px', flex: 1, textAlign: 'left' }}>
-              <li style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', color: '#1A1A1A', fontSize: '15px', padding: '7px 0', borderBottom: '1px solid #F0F0F0' }}><span>✅</span><span>+500 Artes Prontas para Bottons e Imãs</span></li>
+              <li style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', color: '#1A1A1A', fontSize: '15px', padding: '7px 0', borderBottom: '1px solid #F0F0F0' }}><span>✅</span><span>+1.000 Artes Prontas para Bottons e Imãs</span></li>
               <li style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', color: '#1A1A1A', fontSize: '15px', padding: '7px 0', borderBottom: '1px solid #F0F0F0' }}><span>✅</span><span>Guia de Impressão e Produção</span></li>
               <li style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', color: '#1A1A1A', fontSize: '15px', padding: '7px 0', borderBottom: '1px solid #F0F0F0' }}><span>✅</span><span>Acesso Digital e Vítalicio</span></li>
               <li style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', color: '#1A1A1A', fontSize: '15px', padding: '7px 0', borderBottom: '1px solid #F0F0F0' }}><span>✅</span><span>Garantia de 30 dias</span></li>
@@ -386,7 +386,7 @@ function OffersSection() {
             <p className="text-center text-[40px] md:text-5xl font-black text-green-600 mb-4 md:mb-6 leading-none">R$17</p>
             <ul id="upsell-list" className="space-y-2.5 md:space-y-3 mb-5 md:mb-6 text-left w-fit mx-auto">
               <li className="flex items-start gap-2 text-[13px] md:text-sm text-gray-800 border-b border-gray-100 pb-1.5 md:pb-2">
-                <span>✅</span><span>+500 Artes Prontas para Bottons e Imãs</span>
+                <span>✅</span><span>+1.000 Artes Prontas para Bottons e Imãs</span>
               </li>
               <li className="flex items-start gap-2 text-[13px] md:text-sm text-gray-800 border-b border-gray-100 pb-1.5 md:pb-2">
                 <span>✅</span><span>Guia de Impressão e Produção</span>
@@ -471,7 +471,7 @@ function GuaranteeSection() {
 }
 
 const faqs = [
-  { q: 'Preciso saber criar artes?', a: 'Não. As mais de 500 artes já vêm prontas. É só imprimir, produzir seus bottons ou imãs e vender.' },
+  { q: 'Preciso saber criar artes?', a: 'Não. As mais de 1.000 artes já vêm prontas. É só imprimir, produzir seus bottons ou imãs e vender.' },
   { q: 'Preciso de máquina profissional?', a: 'Você pode usar as máquinas manuais de botton mais comuns do mercado ou produzir imãs simples usando mantas magnéticas e tesoura.' },
   { q: 'Funciona em qualquer impressora?', a: 'Sim. Qualquer impressora doméstica comum serve. Você também pode imprimir em gráficas rápidas ou copiadoras.' },
   { q: 'O acesso é por quanto tempo?', a: 'O acesso é imediato e vitalício. Você paga uma vez e tem acesso a todas as artes para sempre.' },
