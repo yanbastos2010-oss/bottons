@@ -4,20 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Google AI Studio App</title>
-    <link rel="preload" href="https://i.ibb.co/ZpSd5smy/Chat-GPT-Image-30-de-jun-de-2026-02-00-24.png" as="image" />
-    <link rel="preload" href="https://i.ibb.co/fG8MVQM6/Design-sem-nome-3.png" as="image" />
-    <link rel="preload" href="https://i.ibb.co/TxtHQHBc/Screenshot-2026-06-30-12-17-50-578-com-canva-editor-edit.jpg" as="image" />
-    <link rel="preload" href="https://i.ibb.co/9HdS817H/Screenshot-2026-06-30-12-15-22-084-com-canva-editor-edit.jpg" as="image" />
-    <link rel="preload" href="https://i.ibb.co/YFhGzNrZ/Screenshot-2026-06-30-12-14-38-535-com-canva-editor-edit.jpg" as="image" />
-    <link rel="preload" href="https://i.ibb.co/m5RhJqHg/Screenshot-2026-06-30-12-14-23-058-com-canva-editor-edit.jpg" as="image" />
-    <link rel="preload" href="https://i.ibb.co/Xr22RKJF/Screenshot-2026-06-30-12-14-08-230-com-canva-editor-edit.jpg" as="image" />
-    <link rel="preload" href="https://i.ibb.co/LdFsWq4t/Screenshot-2026-06-30-12-13-55-476-com-canva-editor-edit.jpg" as="image" />
-    <link rel="preload" href="https://i.ibb.co/Mx8JqZbW/Screenshot-2026-06-30-12-13-40-291-com-canva-editor-edit.jpg" as="image" />
-    <link rel="preload" href="https://i.ibb.co/YBsFHSBw/Screenshot-2026-06-30-12-13-20-238-com-canva-editor-edit.jpg" as="image" />
+    
+    <!-- Preconnect to domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i.ibb.co">
+
+    <!-- Preload Hero Image -->
+    <link rel="preload" href="https://i.ibb.co/cKLpp4Km/Chat-GPT-Image-30-de-jun-de-2026-02-00-24.png" as="image" fetchpriority="high" />
+    
+    <!-- Preload & Load Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"></noscript>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
+
 

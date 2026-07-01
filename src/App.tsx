@@ -47,7 +47,7 @@ function HeroSection() {
   return (
     <section className="px-4 py-12 md:py-20 flex flex-col items-center text-center max-w-5xl mx-auto">
       <div className="flex items-center gap-2 mb-6 px-4 py-1.5 border border-gray-200 rounded-full bg-transparent text-gray-700 font-bold text-sm shadow-sm">
-        <img src="https://i.ibb.co/fG8MVQM6/Design-sem-nome-3.png" alt="Canva" className="w-5 h-5" decoding="async" />
+        <img src="https://i.ibb.co/W4HpkXCw/Design-sem-nome-3.webp" alt="Canva" className="w-5 h-5" decoding="async" />
         Editáveis no Canva
       </div>
       <h1 className="text-3xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight">
@@ -60,7 +60,7 @@ function HeroSection() {
       </p>
       <div className="w-full max-w-3xl mb-8">
           <img
-            src="https://i.ibb.co/ZpSd5smy/Chat-GPT-Image-30-de-jun-de-2026-02-00-24.png"
+            src="https://i.ibb.co/cKLpp4Km/Chat-GPT-Image-30-de-jun-de-2026-02-00-24.png"
             alt="Chat GPT Image 30 de jun de 2026 02 00 24"
             className="w-full h-auto object-cover rounded-2xl shadow-xl"
             decoding="async"
@@ -82,14 +82,14 @@ function HeroSection() {
 }
 
 const images = [
-  "https://i.ibb.co/TxtHQHBc/Screenshot-2026-06-30-12-17-50-578-com-canva-editor-edit.jpg",
-  "https://i.ibb.co/9HdS817H/Screenshot-2026-06-30-12-15-22-084-com-canva-editor-edit.jpg",
-  "https://i.ibb.co/YFhGzNrZ/Screenshot-2026-06-30-12-14-38-535-com-canva-editor-edit.jpg",
-  "https://i.ibb.co/m5RhJqHg/Screenshot-2026-06-30-12-14-23-058-com-canva-editor-edit.jpg",
-  "https://i.ibb.co/Xr22RKJF/Screenshot-2026-06-30-12-14-08-230-com-canva-editor-edit.jpg",
-  "https://i.ibb.co/LdFsWq4t/Screenshot-2026-06-30-12-13-55-476-com-canva-editor-edit.jpg",
-  "https://i.ibb.co/Mx8JqZbW/Screenshot-2026-06-30-12-13-40-291-com-canva-editor-edit.jpg",
-  "https://i.ibb.co/YBsFHSBw/Screenshot-2026-06-30-12-13-20-238-com-canva-editor-edit.jpg"
+  "https://i.ibb.co/dwGSqPkY/Screenshot-2026-06-30-12-15-22-084-com-canva-editor-edit.webp",
+  "https://i.ibb.co/My7JTh2b/Screenshot-2026-06-30-12-17-50-578-com-canva-editor-edit.webp",
+  "https://i.ibb.co/gZwYwx1V/Screenshot-2026-06-30-12-13-20-238-com-canva-editor-edit.webp",
+  "https://i.ibb.co/B5MRzSMD/Screenshot-2026-06-30-12-13-40-291-com-canva-editor-edit.webp",
+  "https://i.ibb.co/5W6YqCSB/Screenshot-2026-06-30-12-13-55-476-com-canva-editor-edit.webp",
+  "https://i.ibb.co/8LByvbnD/Screenshot-2026-06-30-12-14-08-230-com-canva-editor-edit.webp",
+  "https://i.ibb.co/B2Vg9fx0/Screenshot-2026-06-30-12-14-23-058-com-canva-editor-edit.webp",
+  "https://i.ibb.co/zTdXLvgw/Screenshot-2026-06-30-12-14-38-535-com-canva-editor-edit.webp"
 ];
 
 function CarouselSection() {
@@ -222,9 +222,9 @@ function IdealSection() {
 }
 
 const bonuses = [
-  { num: 1, title: 'Kit Gabaritos para Máquinas de Ímãs e Bottons', desc: 'Mais uma coleção pronta para ampliar seu catálogo e vender ainda mais.', old: 'R$27', img: 'https://i.ibb.co/dJQjFLkN/Chat-GPT-Image-30-de-jun-de-2026-19-04-34.png' },
-  { num: 2, title: 'Planilha de Custos e Precificação', desc: 'Ferramenta essencial para calcular e garantir seu lucro real.', old: 'R$27', img: 'https://i.ibb.co/KxGNHcjg/Chat-GPT-Image-30-de-jun-de-2026-19-04-25.png' },
-  { num: 3, title: 'Scripts para fechar vendas no WhatsApp', desc: 'Mensagens estratégicas prontas para converter clientes.', old: 'R$37', img: 'https://i.ibb.co/3mcdjGbZ/Chat-GPT-Image-30-de-jun-de-2026-19-08-43.png' },
+  { num: 1, title: 'Kit Gabaritos para Máquinas de Ímãs e Bottons', desc: 'Mais uma coleção pronta para ampliar seu catálogo e vender ainda mais.', old: 'R$27', img: 'https://i.ibb.co/y7v6JMs/Chat-GPT-Image-30-de-jun-de-2026-19-04-34.webp' },
+  { num: 2, title: 'Planilha de Custos e Precificação', desc: 'Ferramenta essencial para calcular e garantir seu lucro real.', old: 'R$27', img: 'https://i.ibb.co/Mym62RqQ/Chat-GPT-Image-30-de-jun-de-2026-19-04-25.webp' },
+  { num: 3, title: 'Scripts para fechar vendas no WhatsApp', desc: 'Mensagens estratégicas prontas para converter clientes.', old: 'R$37', img: 'https://i.ibb.co/ZpQT7VvW/Chat-GPT-Image-30-de-jun-de-2026-19-08-43.webp' },
 ];
 
 function BonusSection() {
