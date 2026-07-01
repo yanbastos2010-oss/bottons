@@ -50,8 +50,14 @@ function HeroSection() {
         <img src="https://i.ibb.co/W4HpkXCw/Design-sem-nome-3.webp" alt="Canva" className="w-5 h-5" decoding="async" />
         Editáveis no Canva
       </div>
-      <h1 className="text-[26px] sm:text-3xl md:text-5xl lg:text-6xl font-black mb-4 sm:mb-6 leading-tight">
-        <span className="text-[#2563eb]">+3.000</span> <span className="text-[#1A1A1A]">Artes Prontas para</span> <span className="text-[#2563eb]">Bottons e Imãs</span>
+      <h1 className="text-3xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight">
+        <span className="whitespace-nowrap">
+          <span className="text-[#2563eb]">+3.000</span>
+          <span className="text-[#1A1A1A]"> Artes Prontas</span>
+        </span>
+        <br className="block md:hidden" />
+        <span className="text-[#1A1A1A]"> para </span>
+        <span className="text-[#2563eb]">Bottons e Imãs</span>
       </h1>
       <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl">
         Tenha acesso imediato a mais de 3.000 artes profissionais prontas para imprimir, produzir e começar a vender hoje mesmo.
